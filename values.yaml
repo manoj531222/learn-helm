@@ -80,4 +80,5 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
 podName: sample1
