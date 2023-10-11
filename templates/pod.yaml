@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: {{ .Values.podName }}
-  labels:
+labels:
 {{- with .Values.lables }}
 {{- toYaml . | nindent 4 }}
 {{- end }}
