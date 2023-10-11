@@ -4,7 +4,7 @@ metadata:
   name: {{ .Values.podName }}
   labels:
 {{- with .Values.labels }}
-{{- toYaml . | nindent 2 }}
+{{- toYaml . | nindent 4 }}
 {{- end }}
 spec:
   containers:
