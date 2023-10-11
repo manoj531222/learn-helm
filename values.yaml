@@ -90,7 +90,7 @@ ports:
 env:
   url: google.com
   domain: .com
-Labels:
+labels:
   app: nginx
   version: 1.18
   maker: nginx
