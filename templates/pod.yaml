@@ -7,6 +7,6 @@ spec:
     - name: nginx
       image: {{ .Values.image_name }}
       ports:
-      {{- range .Values,ports }}
+      {{- range .Values.ports }}
       - containerPort: {{ . }}
       {{- end }}
